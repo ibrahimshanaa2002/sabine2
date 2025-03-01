@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sabine Quiz</title>
+    <link rel="stylesheet" href="sabine.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Theme color for mobile browsers -->
+    <meta name="theme-color" content="#a18cd1">
+</head>
+<body>
+    <!-- Background particles -->
+    <div id="particles-js"></div>
+    
+    <!-- Floating donkey emojis -->
+    <div class="emoji-container"></div>
+    
+    <div class="container">
+        <div class="icon-wrapper">
+            <i class="fas fa-question-circle pulse"></i>
+        </div>
+        <h1>Is Sabine a Donkey? <span class="bounce">🐴</span></h1>
+        <p class="subtitle">The truth must be acknowledged...</p>
+        <div class="buttons">
+            <button id="yes" class="glow-button"><i class="fas fa-check"></i> Yes, obviously! 😂</button>
+            <button id="no" class="shake-button"><i class="fas fa-times"></i> No, she's not 🙄</button>
+        </div>
+    </div>
+
+    <!-- Hidden Message Box -->
+    <div id="message-box" class="hidden">
+        <div class="confetti-container"></div>
+        <i class="fas fa-laugh-squint message-icon"></i>
+        <p>We all knew it! Sabine is a donkey! 🐴</p>
+        <div class="donkey-image">
+            <img src="./sabine.webp" alt="Donkey" loading="lazy">
+        </div>
+        <div class="share-box">
+            <i class="fas fa-share-alt"></i>
+            <span>Share this wisdom!</span>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="sabine.js"></script>
+</body>
+</html>
